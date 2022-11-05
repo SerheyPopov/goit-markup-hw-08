@@ -29,9 +29,24 @@
             </nav>
             <div class="header-contacts">
                 <ul class="list contact-list">
-                    <li class="items contact-items"><a class="mail fcs"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="items contact-items"><a class="tell fcs" href="tel:380961111111">+38 096 111 11 11</a>
+                    <li class="items contact-items icon-fcs">
+                
+                        <svg class="icon-mail" width="16" height="12">
+                            <use href="./images/icons.svg#mail"></use>
+                        </svg>
+                
+                        <a class="mail icon-fcs" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                
+                    </li>
+                
+                    <li class="items contact-items icon-fcs">
+                
+                        <svg class="icon-tell" width="10" height="16">
+                            <use href="./images/icons.svg#smartphone"></use>
+                        </svg>
+                
+                        <a class="tell icon-fcs" href="tel:380961111111">
+                            +38 096 111 11 11</a>
                     </li>
                 </ul>
             </div>
@@ -53,63 +68,63 @@
 
             <div class="conteiner portfolio-container">
                 <ul class="list">
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio1.jpg" alt="Технокряк" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Технокряк</h2>
                             <p class="portfolio-desc">Веб-сайт</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio2.jpg" alt="Постер" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
                             <p class="portfolio-desc">Дизайн</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio3.jpg" alt="Ресторан" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Ресторан Seafood</h2>
                             <p class="portfolio-desc">Додаток</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio4.jpg" alt="Prime" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Проєкт Prime</h2>
                             <p class="portfolio-desc">Маркетинг</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio5.jpg" alt="Boxes" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Проєкт Boxes</h2>
                             <p class="portfolio-desc">Додаток</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio6.jpg" alt="No Borders" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Inspiration has no Borders</h2>
                             <p class="portfolio-desc">Веб-сайт</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio7.jpg" alt="Limited Edition" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Видання Limited Edition</h2>
                             <p class="portfolio-desc">Дизайн</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio8.jpg" alt="LAB" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Проєкт LAB</h2>
                             <p class="portfolio-desc">Маркетинг</p>
                         </div>
                     </li>
-                    <li class="items portfolio-item">
+                    <li class="items portfolio-item portfolio-hvr">
                         <img class="img-portfolio" src="./images/portfolio9.jpg" alt="Growing Business" width="370">
                         <div class="container-desc">
                             <h2 class="portfolio-title">Growing Business</h2>
@@ -122,21 +137,61 @@
     </main>
 
     <footer class="footer">
-        <div class="conteiner footer-conteiner">
-            <nav class="footer-nav">
-                <a class="footer-logo" href="./index.html"><span class="logo-part">Web</span>Studio</a>
-            </nav>
-            <address>
-                <ul class="list">
-                    <li class="items"> <a class="footer-adress fcs" href="https://goo.gl/maps/mymhzmiy8FEsQ1V26"
-                            target="_blank" rel="noopener noreferrer">м. Київ,
-                            пр-т Лесі Українки, 26</a></li>
-                    <li class="items"><a class="footer-mail fcs" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <div class="conteiner footer-main">
+            <div class="footer-conteiner">
+                <nav class="footer-nav">
+                    <a class="footer-logo" href="./index.html"><span class="logo-part">Web</span>Studio</a>
+                </nav>
+                <address>
+                    <ul class="list footer-list">
+                        <li class="items">
+                            <a class="footer-adress fcs" href="https://goo.gl/maps/mymhzmiy8FEsQ1V26" target="_blank"
+                                rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+                        </li>
+                        <li class="items">
+                            <a class="footer-mail fcs" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="items">
+                            <a class="footer-tell fcs" href="tel:380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-social">
+                <h2 class="footer-title">приєднуйтесь</h2>
+                <ul class="list footer-social-list">
+                    <li class="items footer-hvr">
+                        <a href="#" class="footer-link">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#instagram" class="footer-icon"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="items"><a class="footer-tell fcs" href="tel:380961111111">+38 096 111 11 11</a></li>
+                    <li class="items footer-hvr">
+                        <a href="#" class="footer-link">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#twitter" class="footer-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="items footer-hvr">
+                        <a href="#" class="footer-link">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#facebook" class="footer-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="items footer-hvr">
+                        <a href="#" class="footer-link">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#linkedin" class="footer-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
+
     </footer>
 
 </body>
