@@ -742,6 +742,7 @@ img {
 	text-decoration: none;
 	border-bottom: 1px solid var(--blue-btn-color);
 	color: var(--blue-btn-color);
+	margin-left: 5px;
 }
 
 .form-button {
