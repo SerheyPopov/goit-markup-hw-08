@@ -11,44 +11,43 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 		rel="stylesheet" />
-	<link rel="stylesheet" href="./css/modern-normalize.css" />
-	<link rel="stylesheet" href="./css/styles.css" />
+	<link rel="stylesheet" href="./css/main.min.css" />
+	
 </head>
 
-<body>
+<body class="page-body">
 	<header class="header">
 		<div class="conteiner header-container">
 			<nav class="header-nav">
-				<a class="logo" href="./index.html"><span class="logo-part">Web</span>Studio</a>
+				<a class="header-nav__logo" href="./index.html"><span class="header-nav__logo__part">Web</span>Studio</a>
 				<ul class="list header-list">
 					<li class="items nav-items">
-						<a class="header-link fcs" href="./index.html">Студія</a>
+						<a class="header-link  header-link__focus" href="./index.html">Студія</a>
 					</li>
 					<li class="items nav-items">
-						<a class="header-link current fcs" href="./portfolio.html">Портфоліо</a>
+						<a class="header-link current header-link__focus" href="./portfolio.html">Портфоліо</a>
 					</li>
 					<li class="items nav-items">
-						<a class="header-link fcs" href="#">Контакти</a>
+						<a class="header-link header-link__focus" href="#">Контакти</a>
 					</li>
 				</ul>
 			</nav>
 			<div class="header-contacts">
 				<ul class="list contact-list">
-					<li class="items contact-items icon-fcs">
+					<li class="items contact-items icon-focus">
 						<svg class="icon-mail" width="16" height="12">
 							<use href="./images/icons.svg#mail"></use>
 						</svg>
-
-						<a class="mail icon-fcs" href="mailto:info@devstudio.com">info@devstudio.com</a>
+	
+						<a class="mail icon-focus" href="mailto:info@devstudio.com">info@devstudio.com</a>
 					</li>
-
-					<li class="items contact-items icon-fcs">
+	
+					<li class="items contact-items icon-focus">
 						<svg class="icon-tell" width="10" height="16">
 							<use href="./images/icons.svg#smartphone"></use>
 						</svg>
-
-						<a class="tell icon-fcs" href="tel:380961111111">
-							+38 096 111 11 11</a>
+	
+						<a class="tell icon-focus" href="tel:380961111111"> +38 096 111 11 11</a>
 					</li>
 				</ul>
 			</div>
@@ -61,25 +60,25 @@
 				<h1 class="visually-hidden">/</h1>
 				<ul class="list">
 					<li class="items">
-						<button class="portfolio-btn fcs-btn" type="button">Усі</button>
+						<button class="portfolio-btn " type="button">Усі</button>
 					</li>
 					<li class="items">
-						<button class="portfolio-btn fcs-btn" type="button">
+						<button class="portfolio-btn " type="button">
 							Веб-сайти
 						</button>
 					</li>
 					<li class="items">
-						<button class="portfolio-btn fcs-btn" type="button">
+						<button class="portfolio-btn " type="button">
 							Додатки
 						</button>
 					</li>
 					<li class="items">
-						<button class="portfolio-btn fcs-btn" type="button">
+						<button class="portfolio-btn " type="button">
 							Дизайн
 						</button>
 					</li>
 					<li class="items">
-						<button class="portfolio-btn fcs-btn" type="button">
+						<button class="portfolio-btn " type="button">
 							Маркетинг
 						</button>
 					</li>
@@ -291,17 +290,17 @@
 				<nav class="footer-nav">
 					<a class="footer-logo" href="./index.html"><span class="logo-part">Web</span>Studio</a>
 				</nav>
-				<address>
+				<address class="footer__adress">
 					<ul class="list footer-list">
 						<li class="items">
-							<a class="footer-adress fcs" href="https://goo.gl/maps/mymhzmiy8FEsQ1V26" target="_blank"
+							<a class="footer-adress footer__hvr" href="https://goo.gl/maps/mymhzmiy8FEsQ1V26" target="_blank"
 								rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
 						</li>
 						<li class="items">
-							<a class="footer-mail fcs" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							<a class="footer-mail footer__hvr" href="mailto:info@devstudio.com">info@devstudio.com</a>
 						</li>
 						<li class="items">
-							<a class="footer-tell fcs" href="tel:380961111111">+38 096 111 11 11</a>
+							<a class="footer-tell footer__hvr" href="tel:380961111111">+38 096 111 11 11</a>
 						</li>
 					</ul>
 				</address>

@@ -1,0 +1,49 @@
+.section-title {
+    background-color: $background-title;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/main-bk.jpg);
+
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .section-title__container {
+        display: block;
+        text-align: center;
+
+        .main-title {
+            font-weight: $extrabold;
+            font-size: 44px;
+            line-height: 1.36;
+            letter-spacing: 0.06em;
+            color: $white-text-color;
+            width: 696px;
+            height: 120px;
+            text-transform: uppercase;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-btn {
+            background-color: $blue-btn-color;
+            font-weight: $bold;
+            font-size: 16px;
+            line-height: 1.88;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: $white-text-color;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            margin-top: 30px;
+            padding: 10px 32px;
+        }
+    }
+
+}

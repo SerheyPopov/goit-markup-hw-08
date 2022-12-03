@@ -1,0 +1,27 @@
+.page-body {
+    font-family: $roboto;
+    background-color: $background-main;
+    color: $main-text-color;}
+
+    .conteiner {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        /* outline: 1px solid red; */
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        display: block;
+    }
+    
