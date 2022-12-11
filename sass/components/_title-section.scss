@@ -1,15 +1,49 @@
 .forvard {
     background-color: $background-title;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/main-bk.jpg);
+        url(../images/title-bc/imgsm1x.jpg);
 
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/title-bc/imgsm2x.jpg);
+    }
+
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/title-bc/imgmd1x.jpg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/title-bc/imgmd2x.jpg);
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/title-bc/imglg1x.jpg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/title-bc/imglg2x.jpg);
+        }
+    }
 }
 
 .forvard-container {
@@ -19,15 +53,20 @@
 
 .forvard-container__title {
     font-weight: $extrabold;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 24px;
+    line-height: 1.61;
     letter-spacing: 0.06em;
     color: $white-text-color;
-    width: 696px;
-    height: 120px;
+    width: 360px;
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+        font-size: 44px;
+        line-height: 1.36;
+    }
 }
 
 .forvard-container__btn {
@@ -44,5 +83,9 @@
     cursor: pointer;
     border: none;
     margin-top: 30px;
-    padding: 10px 32px;
+    padding: 10px 24px;
+
+    @media screen and (min-width: 1200px) {
+        padding: 10px 32px;
+    }
 }
