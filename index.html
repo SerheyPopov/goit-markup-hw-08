@@ -62,14 +62,14 @@
 		</div>
 	</header>
 	<main>
-		<!-- <section class="forvard">
+		<section class="forvard">
 			<div class="conteiner forvard-container">
 				<h1 class="forvard-container__title">Ефективні рішення для вашого бізнесу</h1>
 				<button data-modal-open class="forvard-container__btn" type="button">Замовити послугу</button>
 			</div>
-		</section> -->
+		</section>
 
-		<!-- <section class="description">
+		<section class="description">
 			<div class="conteiner description-container">
 				<ul class="description-list list">
 					<li class="description-list__items">
@@ -118,9 +118,9 @@
 					</li>
 				</ul>
 			</div>
-		</section> -->
+		</section>
 
-		<!-- <section class="work">
+		<section class="work">
 			<div class="conteiner work-container">
 				<h2 class="work-container__title">Чим ми займаємося</h2>
 				<ul class="list work-list">
@@ -141,7 +141,7 @@
 					</li>
 				</ul>
 			</div>
-		</section> -->
+		</section>
 
 		<section class="team">
 			<div class="conteiner team-container">
@@ -203,9 +203,9 @@
 							<source media="(min-width: 480px)" srcset="
 							./images/team/img2sm1x.jpg 1x, 
 							./images/team/img2sm2x.jpg 2x" type="image/jpg">
-							<img class="team-list__img" src="./images/team/img2lg1x.jpg" alt="Ольга"/>
+							<img class="team-list__img" src="./images/team/img2lg1x.jpg" alt="Ольга" />
 						</picture>
-						
+
 						<h3 class="team-list__name">Ольга Рєпіна</h3>
 						<p class="team-list__job">Frontend Developer</p>
 						<ul class="list team-social">
@@ -245,9 +245,9 @@
 							<source media="(min-width: 480px)" srcset="
 							./images/team/img3sm1x.jpg 1x, 
 							./images/team/img3sm2x.jpg 2x" type="image/jpg">
-							<img class="team-list__img" src="./images/img222.jpg" alt="Микола"/>
+							<img class="team-list__img" src="./images/team/img3lg1x.jpg" alt="Микола" />
 						</picture>
-						
+
 						<h3 class="team-list__name">Микола Тарасов</h3>
 						<p class="team-list__job">Marketing</p>
 						<ul class="list team-social">
@@ -287,9 +287,9 @@
 							<source media="(min-width: 480px)" srcset="
 							./images/team/img4sm1x.jpg 1x, 
 							./images/team/img4sm2x.jpg 2x" type="image/jpg">
-							<img class="team-list__img" src="./images/img2222.jpg" alt="Михайло"/>
+							<img class="team-list__img" src="./images/team/img4lg1x.jpg" alt="Михайло" />
 						</picture>
-						
+
 						<h3 class="team-list__name">Михайло Єрмаков</h3>
 						<p class="team-list__job">UI Designer</p>
 						<ul class="list team-social">
@@ -319,7 +319,7 @@
 			</div>
 		</section>
 
-		<!-- <section class="client">
+		<section class="client">
 			<div class="conteiner client-conteiner">
 				<h2 class="client__title">Постійні клієнти</h2>
 				<ul class="list client-list">
@@ -367,9 +367,9 @@
 					</li>	
 				</ul>
 			</div>
-		</section> -->
+		</section>
 
-		<!-- <section class="modal-section">
+		<section class="modal-section">
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
 					<button data-modal-close class="modal__btn" aria-label="Закрити" type="button">
@@ -429,57 +429,61 @@
 					</form>
 				</div>
 			</div>
-		</section> -->
-		<section class="mobile-section">
-			<div class=" container menu-container js-menu-container" id="mobile-menu">
-				<button class="menu-toggle js-close-menu">
-					<svg width="24" height="24">
-						<use href="./images/icons.svg#close1"></use>
-					</svg>
+		</section>
+		<section class=" container menu-container js-menu-container" id="mobile-menu">
+			<div class="menu-thumb">
+				<div>
+					<button class="menu-toggle js-close-menu">
+						<svg width="24" height="24">
+							<use href="./images/icons.svg#close1"></use>
+						</svg>
+					</button>
+				</div>
 
+				<div class="mobile-container">
+					<ul class="mobile-menu">
+						<li><a class="link current menu-list__item" href="./index.html" class="link">Студія</a></li>
+						<li><a class="link menu-list__item" href="./portfolio.html" class="link">Портфоліо</a></li>
+						<li><a class="link menu-list__item" href="#" class="link">Контакти</a></li>
+					</ul>
+				</div>
 
-				</button>
-
-				<ul class="mobile-menu">
-					<li><a class="link current menu-list__item" href="./index.html" class="link">Студія</a></li>
-					<li><a class="link menu-list__item" href="./portfolio.html" class="link">Портфоліо</a></li>
-					<li><a class="link menu-list__item" href="#" class="link">Контакти</a></li>
-				</ul>
 				<div class="mobile-thumb container">
 					<div class="mobile-contacts">
 						<ul class="mobile-list list">
-							<li class="mobile-list__tel"><a class="contacts-list__tell " href="tel:380961111111">+38 096
+							<li class="mobile-list__items-tel"><a class="mobile-list__link-tel link"
+									href="tel:380961111111">+38 096
 									111 11 11</a></li>
-							<li class="mobile-list__mail"><a class="contacts-list__mail "
-									href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
+							<li class="mobile-list__items-mail">
+								<a class="mobile-list__link-mail link"
+									href="mailto:info@devstudio.com">info@devstudio.com</a>
+							</li>
+
 						</ul>
 					</div>
 
 					<div class="mobile-social container">
 						<ul class="social-list list">
-							<li class="social-list__item"><a class="link mobile-link" href="#"
-									class="list social-list__link">Instagram</a>
+							<li class="social-list__item">
+								<a class="link mobile-link" href="\">Instagram</a>
 							</li>
-							<li class="social-list__item"><a class="link mobile-link" href="#"
-									class="list social-list__link">Twitter</a>
+
+							<li class="social-list__item"><a class="link mobile-link" href="\">Twitter</a>
 							</li>
-							<li class="social-list__item"><a class="link mobile-link" href="#"
-									class="list social-list__link">Facebook</a>
+							<li class="social-list__item"><a class="link mobile-link" href="\">Facebook</a>
 							</li>
-							<li class="social-list__item"><a class="link mobile-link" href="#"
-									class="list social-list__link">LinkedIn</a>
+							<li class="social-list__item"><a class="link mobile-link" href="\">LinkedIn</a>
 							</li>
 						</ul>
 					</div>
 
 				</div>
-
 			</div>
 		</section>
 
 	</main>
 
-	<!-- <footer class="footer">
+	<footer class="footer">
 		<div class="conteiner footer-main">
 			<div class="container-tablet">
 				<div class="footer-conteiner">
@@ -558,7 +562,7 @@
 
 			</div>
 		</div>
-	</footer> -->
+	</footer>
 	<script src="./js/modal.js"></script>
 	<script src="./js/mobile-menu.js"></script>
 </body>
